@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubham Thakur - Web Developer, Programmer ,ML Enthusiast</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- our whole webpage will be inside the container element below and it has child elements like "sidebar" and "main".we'll mske this element a flexbox and so we'll arrange the chils elements according to our need.  -->
+    <div class="container">
+
+        <!-- OUR SIDEBAR WILL SERVE AS VERTICAL NAVBAR IN THIS CASE. -->
+        <div class="sidebar">
+            <!-- Shubham -->
+            <nav>
+                <ul>
+                    <li><a href="/index.html">Home</li></a>
+                    <li><a href="/intro.html">My Intro</li></a>
+                    <li><a href="/services.html">Services</li></a>
+                    <li><a href="/blog.html">Blog</li></a>
+                    <li><a href="/contact.html">Contact Me</li></a>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- our main content will included in below element. -->
+        <div class="main">
+            <div class="intro">
+                <h2>About me</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, enim neque cupiditate tempora,
+                    reiciendis quidem quaerat, molestias exercitationem odio pariatur suscipit amet eveniet mollitia.
+                    Culpa repellendus tempora suscipit, voluptate fugit mollitia nostrum velit eos modi?</p>
+                <h2>My skills</h2>
+                <!-- BELOW WE TRY TO CREATE A PROGRESS BAR FOR DIFFERENT LANGUAGES LEARNT BY ME.WE'LL make it appear it like progress bar by CSS.-->
+                <div class="skillcontainer">
+                    <!-- below we add a class "skillitem" to make the below skills as a flexbox -->
+                    <div class="skillitem">HTML: <div class="skill hundred"></div></div>
+                    <div class="skillitem">CSS: <div class="skill fifty"></div></div>
+                    <div class="skillitem">JAVASCRIPT: <div class="skill"></div></div>
+                    <div class="skillitem">DJANGO: <div class="skill t5"></div></div>
+                    <div class="skillitem">PYTHON: <div class="skill"></div></div>
+                </div>
+                <!-- iske neeche apne projects ki ek gallery banaye. -->
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

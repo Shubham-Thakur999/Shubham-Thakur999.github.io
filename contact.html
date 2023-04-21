@@ -1,0 +1,71 @@
+<!-- WE HAVE PASTED THE ENTIRE INDEX.HTML PAGE HERE.SEE GENERALLY WHILE USING DJANGO AND OTHER FRAMEWORKS WE'LL WRITE THE CONTENTS OF THESE HYPERLINKED PAGES DYNAMICALLY OR DIFFERENTLY.
+BUT HERE WE'LL SIMPLY COPY THE (INDEX.HTML) PAGE IN THESE PAGES AND JUST CHANGE THE 'MAIN' PART WHERE WE WILL ADD THE CONTENT OF THESE PAGES.   -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubham Thakur - Web Developer, Programmer ,ML Enthusiast</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- our whole webpage will be inside the container element below and it has child elements like "sidebar" and "main".we'll mske this element a flexbox and so we'll arrange the chils elements according to our need.  -->
+    <div class="container">
+
+        <!-- OUR SIDEBAR WILL SERVE AS VERTICAL NAVBAR IN THIS CASE. -->
+        <div class="sidebar">
+            <!-- Shubham -->
+            <nav>
+                <ul>
+                  <li><a href="/index.html">Home</li></a>
+                    <li><a href="/intro.html">My Intro</li></a>
+                    <li><a href="/services.html">Services</li></a>
+                    <li><a href="/blog.html">Blog</li></a>
+                    <li><a href="/contact.html">Contact Me</li></a>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- our main content will included in below element. -->
+        <div class="main">
+            <div class="contactform">
+                <h1>Contact me for work/general enquiries</h1>
+
+                <!-- below form is from Bootstrap -->
+                <form>
+                    <div class="mb-3">
+                      <label for="clientname" class="form-label">Name</label>
+                      <input type="name" class="form-control" id="exampleInputname" aria-describedby="nameHelp">
+                    </div>
+                    <div class="mb-3">
+                      <label for="clientemail" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailhelp" class="form-text">We'll never share your email & phone with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="clientphone" class="form-label">Phone Number</label>
+                      <input type="phone" class="form-control" id="clientphone">
+                    </div>
+                    <div class="mb-3">
+                        <label for="clientname" class="form-label">Enquiry</label>
+                        <input type="name" class="form-control" id="exampleInputname" aria-describedby="nameHelp">
+                      </div>
+                    <div class="mb-3" id="form-check">
+                        <!-- ye upar hamne id="form-check" kiya so that isko easily directly access kar ke chechbox ko fix kar sake. -->
+                      <input type="checkbox" class="form-check-input" id="isclient">
+                      <label class="form-check-label" for="isclient">I want you to work on a project with me</label>
+                    </div>
+                    <button type="submit" class="btn btn-sm">Submit</button>
+                    <!-- above we gave class= "btn" and "btn-sm"  to edit this submit button -->
+                  </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

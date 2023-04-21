@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+/* SEE EARLIER YOU MIGHT HAVE IGNORED ,BUT IT IS VERY IMPORTANT TO COPY-PASTE THE AVOVE IMPORT CODE OF THE SELECTED FONT,THEN ONLY WE CAN SEE ITS TRUE EFFECTS. */
+
+
+/* ALSO,THERE IS A SEPRATE EDOTOR FOR STYLES APART FROM WHAT YOU CAN DO IN INSPECT OPTION. */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+}
+.sidebar{
+    background-color:rgb(152, 152, 152) ;
+    width: 12vw;
+    height: 100vh;
+}
+
+.sidebar nav{
+    padding: 37px;
+    font-size: 30px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    padding: 33px 0;
+}
+/* below is to style the hyperlink (a) of the sidebar or navbar. */
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    /* background-color:lightgreen; */
+    width: 88vw;
+}
+.infocontainer{
+    /* background-color:black; */
+    height: 58vh;
+    width: 80vw;
+    margin: 75px auto;
+    display: flex;
+    /* above is to keep all elements of infocontainer in same row. */
+    justify-content: space-around;
+    /* to give some space to elements around them. */
+}
+.devpics img{
+    /* adjusting photo's dimensions.  */
+    height: 58vh;
+    width:17vw;
+    /* background-color: black; */
+}
+
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* above is to keep all elements of "devinfo" in one after the other like fashion. */
+}
+.container{
+    display: flex;
+}
+
+/* below we beautify the texts and some buttons */
+.hello{
+    font-size: 65px;
+}
+.name{
+    font-size:50px;
+}
+.about{
+    font-size: 40px;
+}
+.moreabout{
+    margin-top: 34px;
+}
+/* now the below styles for btn class is reusable as we can apply it on any button who has this class "btn" */
+.btn{
+    padding: 9px 14px;
+    /* the above padding increased the size of the buttons. */
+    border-radius: 22px;
+    color: white;
+    background-color:dodgerblue ;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 20px 8px;
+    cursor: pointer;
+}
+/* the below effect will appear when someone hovers over these buttons.THIS EFFECT WILL EXCHANGE THE COLORS OF THE BACKGROUND AND TEXT OF THE BUTTONS.  */
+.btn:hover{
+    background-color: white;
+    color:dodgerblue ;
+}
+/*********************************************************************************************************************************************** */
+/*  BELOW WE ADD STYLES FOR CONTACT.HTML PAGE.ALTHOUGH WE CAN ALSO CREATE A SEPRATE PAGE FOR IT. */
+
+.contactform{
+    padding: 40px 34px;
+}
+.contactform h1{
+    padding: 12px 0;
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+/* below code is for styling the input boxes . */
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    padding: 6px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#emailhelp{
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+/* ye dekho iss neeche waale checkbox waale button ko theek karne me harry bhai ke dimaag ka b***** ho raha tha.but as he told iss cheej ko karne ke 10 tarike hote and you have learn that yourself with practicing. */
+#form-check{
+    flex-direction: row;
+    /* ye karke ham checkbox aur uske label ko same line me le aayenge. */
+}
+#form-check input{
+    width: 24px;
+    /* ye upar hamne checkbox ke width ko control kiya. */
+    margin: 3px 0;
+    /* ye upar margin ke kaaran(specially top-bottom :3px se label centrally align ho jaayega).  */
+}
+
+.btn-sm{
+    font-size:14px;
+    padding: 7px 13px;
+    margin: 10px 0;
+}
+
+/*********************************************************************************************************************************************** */
+/*  BELOW WE ADD STYLES FOR blog.HTML PAGE. */
+.blogitem{
+    margin: 20px;
+}
+h1{
+    margin: 23px;
+}
+
+/*********************************************************************************************************************************************** */
+/*  BELOW WE ADD STYLES FOR blog.HTML PAGE. */
+
+.intro h2{
+    margin: 12px;
+}
+.intro p{
+    margin: 12px;
+}
+
+.skillcontainer{
+    padding: 12px;
+}
+/* below we try to make the progress bar for different languages learnt */
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+
+}
+
+/* below we define progress  bar of different width,although we should try to build a box and show the progress made in it. */
+.hundred{
+    width: 265px;
+    background-color: blueviolet;
+}
+.fifty{
+    width: 125px;
+    background-color: aquamarine;
+}
+.t5{
+    width: 75px;
+    background-color: yellow;
+}
